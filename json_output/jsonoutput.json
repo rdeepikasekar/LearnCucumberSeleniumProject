@@ -1,0 +1,386 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1020800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.aBeforeHooks2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 346000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.BeforeHooks()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "revise cucumber 1",
+        "description": "",
+        "id": "revise-cucumber;revise-cucumber-1;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 378400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.bAfterHooks()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.aAfterHooks2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 547136199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "to check the hard coded parameter \"hardcoded example\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hardcoded example",
+                  "offset": 35
+                }
+              ],
+              "location": "pracCucumber.givenMtd(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "to check the scenario outline with example \"ex11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ex11",
+                  "offset": 44
+                }
+              ],
+              "location": "pracCucumber.whenMtd(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1096899,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "to check the datatable as list",
+            "match": {
+              "location": "pracCucumber.AndMtd(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "prac with list"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311399,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "to check datatable as set",
+            "match": {
+              "location": "pracCucumber.ThenMtd(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MapPara"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "prac with map"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.aBeforeHooks2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 79500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.BeforeHooks()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "revise cucumber 1",
+        "description": "",
+        "id": "revise-cucumber;revise-cucumber-1;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 52301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.bAfterHooks()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.aAfterHooks2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 124500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "to check the hard coded parameter \"hardcoded example\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hardcoded example",
+                  "offset": 35
+                }
+              ],
+              "location": "pracCucumber.givenMtd(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "to check the scenario outline with example \"ex21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ex21",
+                  "offset": 44
+                }
+              ],
+              "location": "pracCucumber.whenMtd(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "to check the datatable as list",
+            "match": {
+              "location": "pracCucumber.AndMtd(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "prac with list"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98099,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "to check datatable as set",
+            "match": {
+              "location": "pracCucumber.ThenMtd(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MapPara"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "prac with map"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 80201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.aBeforeHooks2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 119600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.BeforeHooks()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "",
+        "description": "",
+        "id": "revise-cucumber;",
+        "after": [
+          {
+            "result": {
+              "duration": 70400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.bAfterHooks()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinition.aAfterHooks2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Given test scenario 2",
+            "match": {
+              "location": "pracCucumber.givenSc2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63099,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "When test scenario 2",
+            "match": {
+              "location": "pracCucumber.WhenSc2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Then test scenario 2",
+            "match": {
+              "location": "pracCucumber.thensc2()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "revise Cucumber",
+    "description": "",
+    "id": "revise-cucumber",
+    "keyword": "Feature",
+    "uri": "C:/Users/asus/OneDrive/Desktop/Canada Interview Preparation/LearnCucumberSeleniumProject/src/main/java/Features/pracCucumber.feature"
+  }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.551661">
+    <testcase classname="revise Cucumber" name="revise cucumber 1" time="0.550464">
+        <system-out>
+            <![CDATA[Given to check the hard coded parameter "hardcoded example".................passed
+When to check the scenario outline with example "ex11"......................passed
+And to check the datatable as list..........................................passed
+Then to check datatable as set..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="revise Cucumber" name="revise cucumber 1 2" time="0.000657">
+        <system-out>
+            <![CDATA[Given to check the hard coded parameter "hardcoded example".................passed
+When to check the scenario outline with example "ex21"......................passed
+And to check the datatable as list..........................................passed
+Then to check datatable as set..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="revise Cucumber" name="" time="0.00054">
+        <system-out>
+            <![CDATA[Given Given test scenario 2.................................................passed
+When When test scenario 2...................................................passed
+Then Then test scenario 2...................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
